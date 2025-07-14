@@ -5,4 +5,4 @@ import { greet } from "./lib/greet.js";
 //
 // */
 
-console.log(greet("Co-Star and Dakota"));
+console.log(greet("Hal, Jared, & Dakota"));
