@@ -37,6 +37,7 @@ Build a functional CLI tool that:
 
 ```
 project/
+├── index.js
 ├── lib/
 │   ├── maybe.js            # Nullable-safe wrapper
 │   ├── transits.js         # Filtering logic
@@ -66,7 +67,7 @@ npm install
 ### Run the CLI:
 
 ```bash
-node cli/index.js
+node index.js
 ```
 
 ### Run tests:
