@@ -1,8 +1,11 @@
 export const USER = (nameStr, birthTimeDateStr, natalChartArr) => {
   return Object.freeze({
     name: nameStr || "",
-    birthTime: birthTimeDateStr || "",
-    natalChart: natalChartArr || [],
+    birthTime:
+      birthTimeDateStr !== ""
+        ? birthTimeDateStr
+        : "🌫️ Birth time missing. Please enter your time of birth to receive personalized transits.",
+    natalChart: birthTimeDateStr !== "" ? natalChartArr : [],
   });
 };
 
