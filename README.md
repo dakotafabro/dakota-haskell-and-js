@@ -133,7 +133,7 @@ Each function must be:
 
 ### 3. CLI Behavior
 
-In `cli/index.js`, use:
+In `index.js`, use:
 
 - `data/user.js` and `data/transits.js`
 - Fallback if `user.birthTime` is null
